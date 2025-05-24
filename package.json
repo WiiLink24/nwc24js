@@ -2,10 +2,15 @@
   "name": "nwc24js",
   "version": "1.0.1",
   "description": "Utilies for WiiConnect24 numbers",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc"
   },
   "author": "kouacc",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.8.3"
+  }
 }
